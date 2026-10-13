@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdpfree-3",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -40,11 +40,12 @@
   },
   "akses": {
     "tailscale": {
-      "hostname": "rdpfree-3",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
       "status": "ok",
-      "magicdns": "rdpfree-3-1.tail33676a.ts.net.",
-      "ip": "100.124.49.105"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "mode": "tailscale"
   },
@@ -93,5 +94,6 @@
       "note": "DirectX legacy diverifikasi x86/x64. GTA SA dan SA-MP dipasang manual dari sumber sah. Game, GPU, dan koneksi server belum diuji."
     }
   },
-  "heartbeat_at": "2026-10-13T08:39:05.2478067Z"
+  "heartbeat_at": "2026-10-13T08:39:05.2478067Z",
+  "stopped_at": "2026-10-13T08:41:32Z"
 }
